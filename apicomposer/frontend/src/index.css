@@ -1,0 +1,63 @@
+:root {
+  --primary-purple: #8a2be2;
+  --secondary-purple: #4b0082;
+  --light-purple: #e6e6fa;
+  --text-color: #f0f0f0;
+  --glass-bg: rgba(75, 0, 130, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple));
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  font-weight: 500;
+  color: var(--light-purple);
+  text-decoration: inherit;
+}
+a:hover {
+  color: white;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s;
+}
